@@ -6,11 +6,16 @@
         color: blue;
         font-size: 30px;
       }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+        grid-gap: 0.5em;
+      }
       .container {
         display: flex;
         flex-direction: column;
         border: 1px solid silver;
-        width: 20em;
+        /* width: 20em; */
       }
       .box {
         color: red;
@@ -30,18 +35,59 @@
   </head>
   <body>
     <h1>JGM</h1>
-    <div class="container">
-      <div class="box"> Contain </div>
-      <img class="box" src="test.jpg" />
-      <img class="box" src="test-lang.jpg" />
-      <img class="box" src="test-breit.jpg" />
-      <img class="box" src="test-klein.png" />
+    <div class="grid">
+      <div class="container">
+        <div class="box"> Contain </div>
+        <img class="box" src="test.jpg" />
+        <img class="box" src="test-lang.jpg" />
+        <img class="box" src="test-breit.jpg" />
+        <img class="box" src="test-klein.png" />
 
-      <div class="box1"> Cover </div>
-      <img class="box1" src="test.jpg" />
-      <img class="box1" src="test-lang.jpg" />
-      <img class="box1" src="test-breit.jpg" />
-      <img class="box1" src="test-klein.png" />
+        <div class="box1"> Cover </div>
+        <img class="box1" src="test.jpg" />
+        <img class="box1" src="test-lang.jpg" />
+        <img class="box1" src="test-breit.jpg" />
+        <img class="box1" src="test-klein.png" />
+      </div>
+      <div class="container">
+        <div class="box"> Contain </div>
+        <img class="box" src="test.jpg" />
+        <img class="box" src="test-lang.jpg" />
+        <img class="box" src="test-breit.jpg" />
+        <img class="box" src="test-klein.png" />
+
+        <div class="box1"> Cover </div>
+        <img class="box1" src="test.jpg" />
+        <img class="box1" src="test-lang.jpg" />
+        <img class="box1" src="test-breit.jpg" />
+        <img class="box1" src="test-klein.png" />
+      </div>
+      <div class="container">
+        <div class="box"> Contain </div>
+        <img class="box" src="test.jpg" />
+        <img class="box" src="test-lang.jpg" />
+        <img class="box" src="test-breit.jpg" />
+        <img class="box" src="test-klein.png" />
+
+        <div class="box1"> Cover </div>
+        <img class="box1" src="test.jpg" />
+        <img class="box1" src="test-lang.jpg" />
+        <img class="box1" src="test-breit.jpg" />
+        <img class="box1" src="test-klein.png" />
+      </div>
+      <div class="container">
+        <div class="box"> Contain </div>
+        <img class="box" src="test.jpg" />
+        <img class="box" src="test-lang.jpg" />
+        <img class="box" src="test-breit.jpg" />
+        <img class="box" src="test-klein.png" />
+
+        <div class="box1"> Cover </div>
+        <img class="box1" src="test.jpg" />
+        <img class="box1" src="test-lang.jpg" />
+        <img class="box1" src="test-breit.jpg" />
+        <img class="box1" src="test-klein.png" />
+      </div>
     </div>
   </body>
 </html>
